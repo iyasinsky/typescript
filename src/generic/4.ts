@@ -16,4 +16,5 @@ class Page extends Component<Props> {
   }
 }
 
-export {};
+const newPage = new Page({ title: 'New Page' });
+console.log(newPage.pageInfo());

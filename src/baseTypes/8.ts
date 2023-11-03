@@ -6,7 +6,5 @@
 type Gender = 'male' | 'female';
 
 let myGender: Gender = 'male';
-// myGender = 'female';
+myGender = 'female';
 // myGender = 'animal';
-
-export {};

@@ -16,5 +16,5 @@ enum WeekDays {
 const isWeekend = (day: WeekDays): boolean =>
   day === WeekDays.Saturday || day === WeekDays.Sunday;
 
-// console.log('Friday:', isWeekend(WeekDays.Friday));
-// console.log('Saturday:', isWeekend(WeekDays.Saturday));
+console.log('is Friday a weekend:', isWeekend(WeekDays.Friday));
+console.log('is Saturday a weekend:', isWeekend(WeekDays.Saturday));

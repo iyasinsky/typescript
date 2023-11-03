@@ -9,7 +9,7 @@ type Pages = {
   status: 'open' | 'close';
   details?: {
     createAt: Date;
-    updateAt?: Date;
+    updateAt: Date;
   };
 };
 
@@ -30,5 +30,3 @@ const page2: Pages = {
   accounts: ['Alex'],
   status: 'close',
 };
-
-export {};
